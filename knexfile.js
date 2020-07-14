@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: "mysql",
-    connection: "mysql://root:123456@localhost:3306/guided_dev",
+    connection: "mysql://darius:abc123@localhost:3306/guided_dev",
     migrations: {
       directory: __dirname + "/knex/migrations",
     },
